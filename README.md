@@ -1,6 +1,4 @@
-# Portfolio
-
-Svelte Pet-project. Experiments with animation.
+# Svelte Pet-project. Experiments with animation.
 
 ### Project setup
 ```
