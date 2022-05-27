@@ -80,9 +80,9 @@
   import Animate from '@component/part/Animate.svelte';
 
   // === data
-  let controlVue = true;
-  let loaderAn = true;
-  let loaderAnEnd = true;
+  let controlVue = false;
+  let loaderAn = false;
+  let loaderAnEnd = false;
 
   // === computed
   $: isHome = loaderAnEnd && $location === '/';
