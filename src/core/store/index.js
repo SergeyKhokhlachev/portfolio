@@ -37,7 +37,7 @@ export const skills = readable({
     {
       icon: 'icons/vue.svg',
       title: 'Vue',
-      text: 'SPA development based on MVC architecture. Using Vuex to create a centralized store for all the components in an application. Using the REST API to interact with the backend. Creating Server-Side Rendering with Nuxt.js',
+      text: 'SPA development based on MVC architecture. Using Vuex to create a centralized store for all the components in an application. Using the REST API to interact with the backend.',
     }, {
       icon: 'icons/svelte.svg',
       title: 'Svelte',
@@ -169,7 +169,7 @@ export const experience = readable([
       'Front-end integration (YII2, REST API)',
       'Make animations - CSS, JS',
       'Integrating 3D MAX Models into Canvas (WebGL, Babylon.js)',
-      'Teamwork - Git (GitLab)',
+      'Teamwork - Git (GitLab, Bitbucket)',
     ]
   }, {
     date: '2020 - 2022',
@@ -178,21 +178,10 @@ export const experience = readable([
     responsibility: [
       'HTML code (BEM, Mobile First)',
       'JavaScript programming (ES6)',
-      'Front-end integration (Vue, Vuex, Axios, Nuxt, REST API)',
+      'Front-end integration (Vue, Vuex, Axios, REST API)',
       'Make animations - CSS, JS, SVG (SMIL)',
       'Make animations - Canvas (2D Context API)',
       'Teamwork - Git (GitLab)',
-    ]
-  }, {
-    date: '2022 - Present',
-    company: '"Alef"',
-    position: 'Front-end developer',
-    responsibility: [
-      'HTML code (BEM, Mobile First)',
-      'JavaScript programming (ES6)',
-      'Front-end integration (Vue, Vuex, Axios, Nuxt, REST API)',
-      'Make animations - CSS, JS, SVG (SMIL)',
-      'Teamwork - Git (Bitbucket)',
     ]
   }
 ]);

@@ -31,17 +31,17 @@
         >
           <g style="fill: none;">
             <path
-              in:draw={{ duration: 200, easing: quadInOut }}
+              in:draw={{ duration: 400, easing: quadInOut }}
               style="stroke: #c62828; stroke-width: 3;"
               d={strokeOne}
             />
             <path
-              in:draw={{ duration: 300, easing: quadInOut, delay: 200 }}
+              in:draw={{ duration: 200, easing: quadInOut, delay: 500 }}
               style="stroke: #c62828; stroke-width: 3;"
               d={strokeTwo}
             />
             <path
-              in:draw={{ duration: 1200, easing: quadInOut, delay: 600 }}
+              in:draw={{ duration: 1200, easing: quadInOut, delay: 800 }}
               style="stroke: #f4511e; stroke-width: 2;"
               d={strokeMain}
             />
